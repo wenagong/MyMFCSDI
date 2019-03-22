@@ -1,0 +1,3 @@
+D:/Documents/Projects/MyMFCSDI/bin/CMakeFiles/ALL_BUILD.dir
+D:/Documents/Projects/MyMFCSDI/bin/CMakeFiles/ZERO_CHECK.dir
+D:/Documents/Projects/MyMFCSDI/bin/MyMFCSDI/CMakeFiles/MyMFCSDI.dir

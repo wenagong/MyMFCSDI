@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Documents\Projects\MyMFCSDI\src\MyMFCSDI\MyMFCSDI\MainFrm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Projects\MyMFCSDI\src\MyMFCSDI\MyMFCSDI\StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Projects\MyMFCSDI\src\MyMFCSDI\MyMFCSDI\MyMFCSDI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Projects\MyMFCSDI\src\MyMFCSDI\MyMFCSDI\MyMFCSDIDoc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Projects\MyMFCSDI\src\MyMFCSDI\MyMFCSDI\MyMFCFilesView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Projects\MyMFCSDI\src\MyMFCSDI\MyMFCSDI\MyViewController.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Projects\MyMFCSDI\src\MyMFCSDI\MyMFCSDI\MyMFCSDIView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Projects\MyMFCSDI\src\MyMFCSDI\MyMFCSDI\MyPLYReaderFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Projects\MyMFCSDI\src\MyMFCSDI\MyMFCSDI\MyPicker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Projects\MyMFCSDI\src\MyMFCSDI\MyMFCSDI\MyParallelCoordinatesInteractorStyle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Projects\MyMFCSDI\src\MyMFCSDI\MyMFCSDI\vtkCustomAnimationCue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Projects\MyMFCSDI\src\MyMFCSDI\MyMFCSDI\MyCallBackAVI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Documents\Projects\MyMFCSDI\src\MyMFCSDI\MyMFCSDI\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Documents\Projects\MyMFCSDI\src\MyMFCSDI\MyMFCSDI\res\MyMFCSDI.rc2" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="D:\Documents\Projects\MyMFCSDI\src\MyMFCSDI\MyMFCSDI\MyMFCSDI.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{87AC5183-9129-3DC1-92CA-25C7796054E4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\src\MyMFCSDI\MyMFCSDI\res\icon1.ico" />
+    <Image Include="..\..\src\MyMFCSDI\MyMFCSDI\res\MyMFCSDI.ico" />
+    <Image Include="..\..\src\MyMFCSDI\MyMFCSDI\res\MyMFCSDIDoc.ico" />
+    <Image Include="..\..\src\MyMFCSDI\MyMFCSDI\res\icon2.ico" />
+    <Image Include="..\..\src\MyMFCSDI\MyMFCSDI\res\ico00001.ico" />
+    <Image Include="..\..\src\MyMFCSDI\MyMFCSDI\res\ico00002.ico" />
+    <Image Include="..\..\src\MyMFCSDI\MyMFCSDI\res\Toolbar.bmp" />
+  </ItemGroup>
+</Project>

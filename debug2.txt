@@ -1,0 +1,388 @@
+CMyMFCSDIView::OnCreate()
+CMyMFCSDIView::OnInitialUpdate()
+CMyMFCSDIView::ExecuteUpdate()
+MyViewController::PrintLightsInRenderer()
+MyViewController::PrintLightsInRenderer()
+		Light[0] = 2b54dfa0
+		 Renderers = 2
+[0] = 2b60aba0
+[1] = 2d9a67a0
+[1,0] = 37c4b9b0
+[1,1] = 37c4bbd0
+[1,2] = 37c4af10
+[1,3] = 37c4bdf0
+[1,4] = 37c4c010
+[1,5] = 37c4cab0
+CMyMFCFilesView::OnInitialUpdate()
+CMyMFCFilesView::OnUpdate()
+CMyMFCFilesView::OnTvnSelchanged()
+CMyMFCFilesView::OnTvnSelchanged()
+CMyMFCFilesView::OnTvnSelchanged()
+CMyMFCSDIDoc::OnFileNew()
+CMyMFCSDIDoc::CheckAndSaveDocument()
+MyViewController::IsDataSetChangedInVrmlFile()  initNumOfDataSetInVrmlFile = 0
+MyViewController::IsDataSetChangedInVrmlFile()  numOfDataSetInVrmlFile = 0
+CMyMFCSDIView::OnUpdate()
+		 Renderers = 2
+[0] = 2b60aba0
+[1] = 2d9a67a0
+[1,0] = 37c4b9b0
+[1,1] = 37c4bbd0
+[1,2] = 37c4af10
+[1,3] = 37c4bdf0
+[1,4] = 37c4c010
+[1,5] = 37c4cab0
+CMyMFCSDIView::ExecuteUpdate()
+MyViewController::PrintLightsInRenderer()
+		Light[0] = 2b54dfa0
+MyViewController::PrintLightsInRenderer()
+		Light[0] = 2d8c02c0
+		 Renderers = 2
+[0] = 37c52440
+[1] = 2d8c99c0
+[1,0] = 37c4d550
+[1,1] = 37c4d770
+[1,2] = 37c4ddd0
+[1,3] = 37c4acf0
+[1,4] = 37c4b570
+[1,5] = 37c4b350
+CMyMFCFilesView::OnUpdate()
+CMyMFCFilesView::OnTvnSelchanged()
+CMyMFCFilesView::OnTvnSelchanged()
+CMyMFCSDIDoc::OnFileNew()
+CMyMFCSDIDoc::CheckAndSaveDocument()
+MyViewController::IsDataSetChangedInVrmlFile()  initNumOfDataSetInVrmlFile = 0
+MyViewController::IsDataSetChangedInVrmlFile()  numOfDataSetInVrmlFile = 0
+CMyMFCSDIView::OnUpdate()
+		 Renderers = 2
+[0] = 37c52440
+[1] = 2d8c99c0
+[1,0] = 37c4d550
+[1,1] = 37c4d770
+[1,2] = 37c4ddd0
+[1,3] = 37c4acf0
+[1,4] = 37c4b570
+[1,5] = 37c4b350
+CMyMFCSDIView::ExecuteUpdate()
+MyViewController::PrintLightsInRenderer()
+		Light[0] = 2d8c02c0
+MyViewController::PrintLightsInRenderer()
+		Light[0] = 2d8c0000
+		 Renderers = 2
+[0] = 37cbb8a0
+[1] = 2d9d3060
+[1,0] = 2db0a280
+[1,1] = 2db082a0
+[1,2] = 2db0af40
+[1,3] = 2db084c0
+[1,4] = 2db0ab00
+[1,5] = 2db0ad20
+CMyMFCFilesView::OnUpdate()
+CMyMFCFilesView::OnTvnSelchanged()
+CMyMFCSDIDoc::OnFileOpen()
+MyViewController::PrintLightsInRenderer()
+		Light[0] = 2d8c0000
+CMyMFCSDIDoc::CheckAndSaveDocument()
+MyViewController::IsDataSetChangedInVrmlFile()  initNumOfDataSetInVrmlFile = 0
+MyViewController::IsDataSetChangedInVrmlFile()  numOfDataSetInVrmlFile = 0
+CMyMFCFilesView::OnTvnSelchanged()
+CMyMFCSDIView::OnUpdate()
+		 Renderers = 2
+[0] = 37cbb8a0
+[1] = 2d9d3060
+[1,0] = 2db0a280
+[1,1] = 2db082a0
+[1,2] = 2db0af40
+[1,3] = 2db084c0
+[1,4] = 2db0ab00
+[1,5] = 2db0ad20
+CMyMFCSDIView::ExecuteUpdate()
+MyViewController::PrintLightsInRenderer()
+		Light[0] = 2d8c0000
+MyViewController::RegisterFile()  New Actor = 37fc7530
+MyViewController::RegisterFile()  viewKey = 1
+MyViewController::RegisterFile()  dataKey = D:\Documents\图片\PointCloudsSets\新建文件夹\Block.3pv_1
+MyViewController::PrintLightsInRenderer()
+		Light[0] = 38081450
+		 Renderers = 2
+[0] = 38015740
+[0,0] = 37fc7530
+[1] = 37e96f50
+[1,0] = 37fc8630
+[1,1] = 37fc8850
+[1,2] = 37fc8c90
+[1,3] = 37fcac70
+[1,4] = 37fc8eb0
+[1,5] = 37c78c60
+CMyMFCFilesView::OnUpdate()
+CMyMFCFilesView::OnTvnSelchanged()
+CMyMFCFilesView::OnTvnSelchanged()
+CMyMFCSDIView::OnUpdate()
+		 Renderers = 2
+[0] = 38015740
+[0,0] = 37fc7530
+[1] = 37e96f50
+[1,0] = 37fc8630
+[1,1] = 37fc8850
+[1,2] = 37fc8c90
+[1,3] = 37fcac70
+[1,4] = 37fc8eb0
+[1,5] = 37c78c60
+		 Renderers = 2
+[0] = 38015740
+[0,0] = 37fc7530
+[1] = 37e96f50
+[1,0] = 37fc8630
+[1,1] = 37fc8850
+[1,2] = 37fc8c90
+[1,3] = 37fcac70
+[1,4] = 37fc8eb0
+[1,5] = 37c78c60
+CMyMFCFilesView::OnUpdate()
+CMyMFCFilesView::OnUpdate() :  pHint == this
+MyViewController::PrintLightsInRenderer()
+		Light[0] = 38081450
+CMyMFCSDIView::OnPointTriangle()
+MyViewController::PrintLightsInRenderer()
+		Light[0] = 38081450
+CMyMFCSDIView::OnUpdate()
+		 Renderers = 2
+[0] = 38015740
+[0,0] = 37fc7530
+[1] = 37e96f50
+[1,0] = 37fc8630
+[1,1] = 37fc8850
+[1,2] = 37fc8c90
+[1,3] = 37fcac70
+[1,4] = 37fc8eb0
+[1,5] = 37c78c60
+		 Renderers = 2
+[0] = 38015740
+[0,0] = 37fc7530
+[1] = 37e96f50
+[1,0] = 37fc8630
+[1,1] = 37fc8850
+[1,2] = 37fc8c90
+[1,3] = 37fcac70
+[1,4] = 37fc8eb0
+[1,5] = 37c78c60
+CMyMFCFilesView::OnUpdate()
+CMyMFCFilesView::OnTvnSelchanged()
+ItemKey = 1
+ItemKey[i] = 1
+CMyMFCFilesView::OnTvnSelchanged()
+CMyMFCSDIView::OnUpdate()
+		 Renderers = 2
+[0] = 38015740
+[0,0] = 37fc7530
+[1] = 37e96f50
+[1,0] = 37fc8630
+[1,1] = 37fc8850
+[1,2] = 37fc8c90
+[1,3] = 37fcac70
+[1,4] = 37fc8eb0
+[1,5] = 37c78c60
+		 Renderers = 2
+[0] = 38015740
+[0,0] = 37fc7530
+[1] = 37e96f50
+[1,0] = 37fc8630
+[1,1] = 37fc8850
+[1,2] = 37fc8c90
+[1,3] = 37fcac70
+[1,4] = 37fc8eb0
+[1,5] = 37c78c60
+CMyMFCFilesView::OnUpdate()
+CMyMFCFilesView::OnUpdate() :  pHint == this
+CMyMFCSDIView::OnUpdate()
+		 Renderers = 2
+[0] = 38015740
+[0,0] = 37fc7530
+[1] = 37e96f50
+[1,0] = 37fc8630
+[1,1] = 37fc8850
+[1,2] = 37fc8c90
+[1,3] = 37fcac70
+[1,4] = 37fc8eb0
+[1,5] = 37c78c60
+		 Renderers = 2
+[0] = 38015740
+[0,0] = 37fc7530
+[1] = 37e96f50
+[1,0] = 37fc8630
+[1,1] = 37fc8850
+[1,2] = 37fc8c90
+[1,3] = 37fcac70
+[1,4] = 37fc8eb0
+[1,5] = 37c78c60
+CMyMFCFilesView::OnUpdate()
+ItemKey = 1
+ItemKey[i] = 1
+CMyMFCFilesView::OnTvnSelchanged()
+CMyMFCSDIView::OnUpdate()
+		 Renderers = 2
+[0] = 38015740
+[0,0] = 37fc7530
+[1] = 37e96f50
+[1,0] = 37fc8630
+[1,1] = 37fc8850
+[1,2] = 37fc8c90
+[1,3] = 37fcac70
+[1,4] = 37fc8eb0
+[1,5] = 37c78c60
+		 Renderers = 2
+[0] = 38015740
+[0,0] = 37fc7530
+[1] = 37e96f50
+[1,0] = 37fc8630
+[1,1] = 37fc8850
+[1,2] = 37fc8c90
+[1,3] = 37fcac70
+[1,4] = 37fc8eb0
+[1,5] = 37c78c60
+CMyMFCFilesView::OnUpdate()
+CMyMFCFilesView::OnUpdate() :  pHint == this
+CMyMFCSDIView::OnUpdate()
+		 Renderers = 2
+[0] = 38015740
+[0,0] = 37fc7530
+[1] = 37e96f50
+[1,0] = 37fc8630
+[1,1] = 37fc8850
+[1,2] = 37fc8c90
+[1,3] = 37fcac70
+[1,4] = 37fc8eb0
+[1,5] = 37c78c60
+		 Renderers = 2
+[0] = 38015740
+[0,0] = 37fc7530
+[1] = 37e96f50
+[1,0] = 37fc8630
+[1,1] = 37fc8850
+[1,2] = 37fc8c90
+[1,3] = 37fcac70
+[1,4] = 37fc8eb0
+[1,5] = 37c78c60
+CMyMFCFilesView::OnUpdate()
+ItemKey = 1
+ItemKey[i] = 1
+CMyMFCFilesView::OnTvnSelchanged()
+CMyMFCSDIView::OnUpdate()
+		 Renderers = 2
+[0] = 38015740
+[0,0] = 37fc7530
+[1] = 37e96f50
+[1,0] = 37fc8630
+[1,1] = 37fc8850
+[1,2] = 37fc8c90
+[1,3] = 37fcac70
+[1,4] = 37fc8eb0
+[1,5] = 37c78c60
+		 Renderers = 2
+[0] = 38015740
+[0,0] = 37fc7530
+[1] = 37e96f50
+[1,0] = 37fc8630
+[1,1] = 37fc8850
+[1,2] = 37fc8c90
+[1,3] = 37fcac70
+[1,4] = 37fc8eb0
+[1,5] = 37c78c60
+CMyMFCFilesView::OnUpdate()
+CMyMFCFilesView::OnUpdate() :  pHint == this
+CMyMFCSDIView::OnUpdate()
+		 Renderers = 2
+[0] = 38015740
+[0,0] = 37fc7530
+[1] = 37e96f50
+[1,0] = 37fc8630
+[1,1] = 37fc8850
+[1,2] = 37fc8c90
+[1,3] = 37fcac70
+[1,4] = 37fc8eb0
+[1,5] = 37c78c60
+		 Renderers = 2
+[0] = 38015740
+[0,0] = 37fc7530
+[1] = 37e96f50
+[1,0] = 37fc8630
+[1,1] = 37fc8850
+[1,2] = 37fc8c90
+[1,3] = 37fcac70
+[1,4] = 37fc8eb0
+[1,5] = 37c78c60
+CMyMFCFilesView::OnUpdate()
+ItemKey = 1
+ItemKey[i] = 1
+CMyMFCFilesView::OnTvnSelchanged()
+CMyMFCSDIView::OnUpdate()
+		 Renderers = 2
+[0] = 38015740
+[0,0] = 37fc7530
+[1] = 37e96f50
+[1,0] = 37fc8630
+[1,1] = 37fc8850
+[1,2] = 37fc8c90
+[1,3] = 37fcac70
+[1,4] = 37fc8eb0
+[1,5] = 37c78c60
+		 Renderers = 2
+[0] = 38015740
+[0,0] = 37fc7530
+[1] = 37e96f50
+[1,0] = 37fc8630
+[1,1] = 37fc8850
+[1,2] = 37fc8c90
+[1,3] = 37fcac70
+[1,4] = 37fc8eb0
+[1,5] = 37c78c60
+CMyMFCFilesView::OnUpdate()
+CMyMFCFilesView::OnUpdate() :  pHint == this
+CMyMFCSDIView::OnUpdate()
+		 Renderers = 2
+[0] = 38015740
+[0,0] = 37fc7530
+[1] = 37e96f50
+[1,0] = 37fc8630
+[1,1] = 37fc8850
+[1,2] = 37fc8c90
+[1,3] = 37fcac70
+[1,4] = 37fc8eb0
+[1,5] = 37c78c60
+		 Renderers = 2
+[0] = 38015740
+[0,0] = 37fc7530
+[1] = 37e96f50
+[1,0] = 37fc8630
+[1,1] = 37fc8850
+[1,2] = 37fc8c90
+[1,3] = 37fcac70
+[1,4] = 37fc8eb0
+[1,5] = 37c78c60
+CMyMFCFilesView::OnUpdate()
+ItemKey = 1
+ItemKey[i] = 1
+CMyMFCFilesView::OnTvnSelchanged()
+CMyMFCSDIView::OnUpdate()
+		 Renderers = 2
+[0] = 38015740
+[0,0] = 37fc7530
+[1] = 37e96f50
+[1,0] = 37fc8630
+[1,1] = 37fc8850
+[1,2] = 37fc8c90
+[1,3] = 37fcac70
+[1,4] = 37fc8eb0
+[1,5] = 37c78c60
+		 Renderers = 2
+[0] = 38015740
+[0,0] = 37fc7530
+[1] = 37e96f50
+[1,0] = 37fc8630
+[1,1] = 37fc8850
+[1,2] = 37fc8c90
+[1,3] = 37fcac70
+[1,4] = 37fc8eb0
+[1,5] = 37c78c60
+CMyMFCFilesView::OnUpdate()
+CMyMFCFilesView::OnUpdat

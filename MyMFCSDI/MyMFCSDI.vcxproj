@@ -1,0 +1,354 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3903B2A5-C8A3-33EF-A5BD-8209A2870051}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>MyMFCSDI</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Documents\Projects\MyMFCSDI\bin\MyMFCSDI\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">MyMFCSDI.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">MyMFCSDI</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Documents\Projects\MyMFCSDI\bin\MyMFCSDI\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">MyMFCSDI.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">MyMFCSDI</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Documents\Projects\MyMFCSDI\bin\MyMFCSDI\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">MyMFCSDI.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">MyMFCSDI</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Documents\Projects\MyMFCSDI\bin\MyMFCSDI\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">MyMFCSDI.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">MyMFCSDI</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\vtk7.1.1\vtk-res\include\vtk-7.1;D:\vtk7.1.1\vtk-res\lib\cmake\vtk-7.1\UseVTK.cmake;D:\vtk7.1.1\vtk-res\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;vtkDomainsChemistry_AUTOINIT=1(vtkDomainsChemistryOpenGL2);vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL2);vtkRenderingCore_INCLUDE="D:/Documents/Projects/MyMFCSDI/bin/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL2.h";vtkRenderingOpenGL2_AUTOINIT=1(vtkRenderingGL2PSOpenGL2);vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL2);_AFXDLL;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;vtkDomainsChemistry_AUTOINIT=1(vtkDomainsChemistryOpenGL2);vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL2);vtkRenderingCore_INCLUDE=\"D:/Documents/Projects/MyMFCSDI/bin/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL2.h\";vtkRenderingOpenGL2_AUTOINIT=1(vtkRenderingGL2PSOpenGL2);vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL2);_AFXDLL;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\vtk7.1.1\vtk-res\include\vtk-7.1;D:\vtk7.1.1\vtk-res\lib\cmake\vtk-7.1\UseVTK.cmake;D:\vtk7.1.1\vtk-res\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\vtk7.1.1\vtk-res\include\vtk-7.1;D:\vtk7.1.1\vtk-res\lib\cmake\vtk-7.1\UseVTK.cmake;D:\vtk7.1.1\vtk-res\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;DelayImp.lib;D:\vtk7.1.1\vtk-res\lib\vtkDomainsChemistryOpenGL2-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkFiltersFlowPaths-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkFiltersGeneric-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkFiltersHyperTree-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkFiltersParallelImaging-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkFiltersPoints-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkFiltersProgrammable-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkFiltersSMP-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkFiltersSelection-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkFiltersTexture-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkFiltersVerdict-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkverdict-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkGUISupportMFC-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkGeovisCore-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkproj4-7.1_d.lib;D:\vtk7.1.1\vtk-res\lib\vtkIOAMR-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkIOEnSight-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkIOExodus-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkIOExport-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkRenderingGL2PSOpenGL2-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkgl2ps-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkIOImport-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkIOInfovis-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtklibxml2-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkIOLSDyna-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkIOMINC-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkIOMovie-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkoggtheora-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkIOPLY-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkIOParallel-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkjsoncpp-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkIOParallelXML-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkIOSQL-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtksqlite-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkIOTecplotTable-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkIOVideo-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkImagingMorphological-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkImagingStatistics-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkImagingStencil-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkInteractionImage-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkRenderingContextOpenGL2-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkRenderingImage-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkRenderingLOD-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkRenderingVolumeOpenGL2-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkViewsContext2D-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkViewsInfovis-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkDomainsChemistry-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkFiltersAMR-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkFiltersParallel-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkexoIIc-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkIOGeometry-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkIONetCDF-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkNetCDF_cxx-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkNetCDF-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkhdf5_hl-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkhdf5-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkParallelCore-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkIOLegacy-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkRenderingOpenGL2-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkglew-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkImagingMath-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkChartsCore-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkRenderingContext2D-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkFiltersImaging-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkInfovisLayout-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkInfovisCore-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkViewsCore-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkInteractionWidgets-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkFiltersHybrid-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkImagingGeneral-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkImagingSources-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkFiltersModeling-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkImagingHybrid-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkIOImage-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkDICOMParser-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkmetaio-7.1.lib;comctl32.lib;wsock32.lib;D:\vtk7.1.1\vtk-res\lib\vtkpng-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtktiff-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkjpeg-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkInteractionStyle-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkFiltersExtraction-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkFiltersStatistics-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkImagingFourier-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkalglib-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkRenderingAnnotation-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkImagingColor-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkRenderingVolume-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkImagingCore-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkIOXML-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkIOXMLParser-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkIOCore-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkexpat-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkRenderingLabel-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkRenderingFreeType-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkRenderingCore-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkCommonColor-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkFiltersGeometry-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkFiltersSources-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkFiltersGeneral-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkCommonComputationalGeometry-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkFiltersCore-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkCommonExecutionModel-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkCommonDataModel-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkCommonTransforms-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkCommonMisc-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkCommonMath-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkCommonSystem-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkCommonCore-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtksys-7.1.lib;ws2_32.lib;Psapi.lib;D:\vtk7.1.1\vtk-res\lib\vtkfreetype-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkzlib-7.1.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:\vtk7.1.1\vtk-bin\lib\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DelayLoadDLLs>MyMFCSDI.dll;vtkRendering.dll;vtkIO.dll;vtkFiltering.dll;vtkCommon.dll</DelayLoadDLLs>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Documents/Projects/MyMFCSDI/bin/MyMFCSDI/Debug/MyMFCSDI.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Documents/Projects/MyMFCSDI/bin/MyMFCSDI/Debug/MyMFCSDI.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\vtk7.1.1\vtk-res\include\vtk-7.1;D:\vtk7.1.1\vtk-res\lib\cmake\vtk-7.1\UseVTK.cmake;D:\vtk7.1.1\vtk-res\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;vtkDomainsChemistry_AUTOINIT=1(vtkDomainsChemistryOpenGL2);vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL2);vtkRenderingCore_INCLUDE="D:/Documents/Projects/MyMFCSDI/bin/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL2.h";vtkRenderingOpenGL2_AUTOINIT=1(vtkRenderingGL2PSOpenGL2);vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL2);_AFXDLL;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;vtkDomainsChemistry_AUTOINIT=1(vtkDomainsChemistryOpenGL2);vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL2);vtkRenderingCore_INCLUDE=\"D:/Documents/Projects/MyMFCSDI/bin/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL2.h\";vtkRenderingOpenGL2_AUTOINIT=1(vtkRenderingGL2PSOpenGL2);vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL2);_AFXDLL;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\vtk7.1.1\vtk-res\include\vtk-7.1;D:\vtk7.1.1\vtk-res\lib\cmake\vtk-7.1\UseVTK.cmake;D:\vtk7.1.1\vtk-res\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\vtk7.1.1\vtk-res\include\vtk-7.1;D:\vtk7.1.1\vtk-res\lib\cmake\vtk-7.1\UseVTK.cmake;D:\vtk7.1.1\vtk-res\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>DelayImp.lib;D:\vtk7.1.1\vtk-res\lib\vtkDomainsChemistryOpenGL2-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkFiltersFlowPaths-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkFiltersGeneric-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkFiltersHyperTree-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkFiltersParallelImaging-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkFiltersPoints-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkFiltersProgrammable-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkFiltersSMP-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkFiltersSelection-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkFiltersTexture-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkFiltersVerdict-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkverdict-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkGUISupportMFC-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkGeovisCore-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkproj4-7.1_d.lib;D:\vtk7.1.1\vtk-res\lib\vtkIOAMR-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkIOEnSight-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkIOExodus-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkIOExport-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkRenderingGL2PSOpenGL2-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkgl2ps-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkIOImport-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkIOInfovis-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtklibxml2-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkIOLSDyna-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkIOMINC-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkIOMovie-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkoggtheora-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkIOPLY-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkIOParallel-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkjsoncpp-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkIOParallelXML-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkIOSQL-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtksqlite-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkIOTecplotTable-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkIOVideo-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkImagingMorphological-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkImagingStatistics-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkImagingStencil-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkInteractionImage-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkRenderingContextOpenGL2-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkRenderingImage-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkRenderingLOD-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkRenderingVolumeOpenGL2-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkViewsContext2D-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkViewsInfovis-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkDomainsChemistry-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkFiltersAMR-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkFiltersParallel-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkexoIIc-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkIOGeometry-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkIONetCDF-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkNetCDF_cxx-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkNetCDF-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkhdf5_hl-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkhdf5-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkParallelCore-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkIOLegacy-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkRenderingOpenGL2-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkglew-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkImagingMath-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkChartsCore-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkRenderingContext2D-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkFiltersImaging-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkInfovisLayout-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkInfovisCore-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkViewsCore-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkInteractionWidgets-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkFiltersHybrid-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkImagingGeneral-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkImagingSources-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkFiltersModeling-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkImagingHybrid-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkIOImage-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkDICOMParser-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkmetaio-7.1.lib;comctl32.lib;wsock32.lib;D:\vtk7.1.1\vtk-res\lib\vtkpng-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtktiff-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkjpeg-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkInteractionStyle-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkFiltersExtraction-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkFiltersStatistics-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkImagingFourier-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkalglib-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkRenderingAnnotation-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkImagingColor-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkRenderingVolume-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkImagingCore-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkIOXML-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkIOXMLParser-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkIOCore-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkexpat-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkRenderingLabel-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkRenderingFreeType-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkRenderingCore-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkCommonColor-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkFiltersGeometry-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkFiltersSources-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkFiltersGeneral-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkCommonComputationalGeometry-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkFiltersCore-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkCommonExecutionModel-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkCommonDataModel-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkCommonTransforms-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkCommonMisc-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkCommonMath-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkCommonSystem-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkCommonCore-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtksys-7.1.lib;ws2_32.lib;Psapi.lib;D:\vtk7.1.1\vtk-res\lib\vtkfreetype-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkzlib-7.1.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DelayLoadDLLs>MyMFCSDI.dll;vtkRendering.dll;vtkIO.dll;vtkFiltering.dll;vtkCommon.dll</DelayLoadDLLs>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Documents/Projects/MyMFCSDI/bin/MyMFCSDI/Release/MyMFCSDI.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Documents/Projects/MyMFCSDI/bin/MyMFCSDI/Release/MyMFCSDI.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\vtk7.1.1\vtk-res\include\vtk-7.1;D:\vtk7.1.1\vtk-res\lib\cmake\vtk-7.1\UseVTK.cmake;D:\vtk7.1.1\vtk-res\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;vtkDomainsChemistry_AUTOINIT=1(vtkDomainsChemistryOpenGL2);vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL2);vtkRenderingCore_INCLUDE="D:/Documents/Projects/MyMFCSDI/bin/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL2.h";vtkRenderingOpenGL2_AUTOINIT=1(vtkRenderingGL2PSOpenGL2);vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL2);_AFXDLL;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;vtkDomainsChemistry_AUTOINIT=1(vtkDomainsChemistryOpenGL2);vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL2);vtkRenderingCore_INCLUDE=\"D:/Documents/Projects/MyMFCSDI/bin/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL2.h\";vtkRenderingOpenGL2_AUTOINIT=1(vtkRenderingGL2PSOpenGL2);vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL2);_AFXDLL;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\vtk7.1.1\vtk-res\include\vtk-7.1;D:\vtk7.1.1\vtk-res\lib\cmake\vtk-7.1\UseVTK.cmake;D:\vtk7.1.1\vtk-res\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\vtk7.1.1\vtk-res\include\vtk-7.1;D:\vtk7.1.1\vtk-res\lib\cmake\vtk-7.1\UseVTK.cmake;D:\vtk7.1.1\vtk-res\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>DelayImp.lib;D:\vtk7.1.1\vtk-res\lib\vtkDomainsChemistryOpenGL2-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkFiltersFlowPaths-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkFiltersGeneric-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkFiltersHyperTree-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkFiltersParallelImaging-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkFiltersPoints-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkFiltersProgrammable-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkFiltersSMP-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkFiltersSelection-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkFiltersTexture-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkFiltersVerdict-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkverdict-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkGUISupportMFC-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkGeovisCore-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkproj4-7.1_d.lib;D:\vtk7.1.1\vtk-res\lib\vtkIOAMR-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkIOEnSight-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkIOExodus-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkIOExport-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkRenderingGL2PSOpenGL2-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkgl2ps-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkIOImport-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkIOInfovis-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtklibxml2-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkIOLSDyna-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkIOMINC-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkIOMovie-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkoggtheora-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkIOPLY-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkIOParallel-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkjsoncpp-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkIOParallelXML-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkIOSQL-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtksqlite-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkIOTecplotTable-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkIOVideo-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkImagingMorphological-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkImagingStatistics-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkImagingStencil-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkInteractionImage-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkRenderingContextOpenGL2-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkRenderingImage-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkRenderingLOD-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkRenderingVolumeOpenGL2-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkViewsContext2D-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkViewsInfovis-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkDomainsChemistry-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkFiltersAMR-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkFiltersParallel-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkexoIIc-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkIOGeometry-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkIONetCDF-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkNetCDF_cxx-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkNetCDF-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkhdf5_hl-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkhdf5-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkParallelCore-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkIOLegacy-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkRenderingOpenGL2-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkglew-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkImagingMath-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkChartsCore-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkRenderingContext2D-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkFiltersImaging-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkInfovisLayout-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkInfovisCore-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkViewsCore-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkInteractionWidgets-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkFiltersHybrid-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkImagingGeneral-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkImagingSources-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkFiltersModeling-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkImagingHybrid-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkIOImage-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkDICOMParser-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkmetaio-7.1.lib;comctl32.lib;wsock32.lib;D:\vtk7.1.1\vtk-res\lib\vtkpng-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtktiff-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkjpeg-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkInteractionStyle-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkFiltersExtraction-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkFiltersStatistics-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkImagingFourier-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkalglib-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkRenderingAnnotation-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkImagingColor-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkRenderingVolume-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkImagingCore-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkIOXML-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkIOXMLParser-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkIOCore-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkexpat-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkRenderingLabel-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkRenderingFreeType-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkRenderingCore-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkCommonColor-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkFiltersGeometry-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkFiltersSources-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkFiltersGeneral-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkCommonComputationalGeometry-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkFiltersCore-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkCommonExecutionModel-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkCommonDataModel-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkCommonTransforms-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkCommonMisc-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkCommonMath-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkCommonSystem-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkCommonCore-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtksys-7.1.lib;ws2_32.lib;Psapi.lib;D:\vtk7.1.1\vtk-res\lib\vtkfreetype-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkzlib-7.1.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DelayLoadDLLs>MyMFCSDI.dll;vtkRendering.dll;vtkIO.dll;vtkFiltering.dll;vtkCommon.dll</DelayLoadDLLs>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Documents/Projects/MyMFCSDI/bin/MyMFCSDI/MinSizeRel/MyMFCSDI.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Documents/Projects/MyMFCSDI/bin/MyMFCSDI/MinSizeRel/MyMFCSDI.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\vtk7.1.1\vtk-res\include\vtk-7.1;D:\vtk7.1.1\vtk-res\lib\cmake\vtk-7.1\UseVTK.cmake;D:\vtk7.1.1\vtk-res\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;vtkDomainsChemistry_AUTOINIT=1(vtkDomainsChemistryOpenGL2);vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL2);vtkRenderingCore_INCLUDE="D:/Documents/Projects/MyMFCSDI/bin/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL2.h";vtkRenderingOpenGL2_AUTOINIT=1(vtkRenderingGL2PSOpenGL2);vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL2);_AFXDLL;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;vtkDomainsChemistry_AUTOINIT=1(vtkDomainsChemistryOpenGL2);vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL2);vtkRenderingCore_INCLUDE=\"D:/Documents/Projects/MyMFCSDI/bin/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL2.h\";vtkRenderingOpenGL2_AUTOINIT=1(vtkRenderingGL2PSOpenGL2);vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL2);_AFXDLL;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\vtk7.1.1\vtk-res\include\vtk-7.1;D:\vtk7.1.1\vtk-res\lib\cmake\vtk-7.1\UseVTK.cmake;D:\vtk7.1.1\vtk-res\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\vtk7.1.1\vtk-res\include\vtk-7.1;D:\vtk7.1.1\vtk-res\lib\cmake\vtk-7.1\UseVTK.cmake;D:\vtk7.1.1\vtk-res\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>DelayImp.lib;D:\vtk7.1.1\vtk-res\lib\vtkDomainsChemistryOpenGL2-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkFiltersFlowPaths-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkFiltersGeneric-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkFiltersHyperTree-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkFiltersParallelImaging-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkFiltersPoints-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkFiltersProgrammable-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkFiltersSMP-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkFiltersSelection-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkFiltersTexture-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkFiltersVerdict-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkverdict-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkGUISupportMFC-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkGeovisCore-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkproj4-7.1_d.lib;D:\vtk7.1.1\vtk-res\lib\vtkIOAMR-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkIOEnSight-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkIOExodus-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkIOExport-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkRenderingGL2PSOpenGL2-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkgl2ps-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkIOImport-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkIOInfovis-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtklibxml2-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkIOLSDyna-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkIOMINC-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkIOMovie-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkoggtheora-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkIOPLY-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkIOParallel-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkjsoncpp-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkIOParallelXML-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkIOSQL-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtksqlite-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkIOTecplotTable-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkIOVideo-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkImagingMorphological-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkImagingStatistics-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkImagingStencil-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkInteractionImage-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkRenderingContextOpenGL2-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkRenderingImage-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkRenderingLOD-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkRenderingVolumeOpenGL2-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkViewsContext2D-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkViewsInfovis-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkDomainsChemistry-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkFiltersAMR-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkFiltersParallel-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkexoIIc-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkIOGeometry-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkIONetCDF-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkNetCDF_cxx-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkNetCDF-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkhdf5_hl-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkhdf5-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkParallelCore-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkIOLegacy-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkRenderingOpenGL2-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkglew-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkImagingMath-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkChartsCore-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkRenderingContext2D-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkFiltersImaging-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkInfovisLayout-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkInfovisCore-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkViewsCore-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkInteractionWidgets-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkFiltersHybrid-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkImagingGeneral-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkImagingSources-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkFiltersModeling-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkImagingHybrid-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkIOImage-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkDICOMParser-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkmetaio-7.1.lib;comctl32.lib;wsock32.lib;D:\vtk7.1.1\vtk-res\lib\vtkpng-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtktiff-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkjpeg-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkInteractionStyle-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkFiltersExtraction-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkFiltersStatistics-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkImagingFourier-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkalglib-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkRenderingAnnotation-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkImagingColor-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkRenderingVolume-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkImagingCore-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkIOXML-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkIOXMLParser-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkIOCore-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkexpat-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkRenderingLabel-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkRenderingFreeType-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkRenderingCore-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkCommonColor-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkFiltersGeometry-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkFiltersSources-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkFiltersGeneral-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkCommonComputationalGeometry-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkFiltersCore-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkCommonExecutionModel-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkCommonDataModel-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkCommonTransforms-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkCommonMisc-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkCommonMath-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkCommonSystem-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkCommonCore-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtksys-7.1.lib;ws2_32.lib;Psapi.lib;D:\vtk7.1.1\vtk-res\lib\vtkfreetype-7.1.lib;D:\vtk7.1.1\vtk-res\lib\vtkzlib-7.1.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DelayLoadDLLs>MyMFCSDI.dll;vtkRendering.dll;vtkIO.dll;vtkFiltering.dll;vtkCommon.dll</DelayLoadDLLs>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Documents/Projects/MyMFCSDI/bin/MyMFCSDI/RelWithDebInfo/MyMFCSDI.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Documents/Projects/MyMFCSDI/bin/MyMFCSDI/RelWithDebInfo/MyMFCSDI.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Documents\Projects\MyMFCSDI\src\MyMFCSDI\MyMFCSDI\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Documents/Projects/MyMFCSDI/src/MyMFCSDI/MyMFCSDI/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -HD:/Documents/Projects/MyMFCSDI/src/MyMFCSDI -BD:/Documents/Projects/MyMFCSDI/bin --check-stamp-file D:/Documents/Projects/MyMFCSDI/bin/MyMFCSDI/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/Documents/Projects/MyMFCSDI/src/MyMFCSDI/MyMFCSDI/CMakeLists.txt;D:\Documents\Projects\MyMFCSDI\src\MyMFCSDI\MyMFCSDI\CMakeLists.txt;D:\vtk7.1.1\vtk-bin\GUISupport\MFC\VTKMFCSettings.cmake;D:\Documents\Projects\MyMFCSDI\src\MyMFCSDI\MyMFCSDI\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Documents\Projects\MyMFCSDI\bin\MyMFCSDI\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Documents/Projects/MyMFCSDI/src/MyMFCSDI/MyMFCSDI/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -HD:/Documents/Projects/MyMFCSDI/src/MyMFCSDI -BD:/Documents/Projects/MyMFCSDI/bin --check-stamp-file D:/Documents/Projects/MyMFCSDI/bin/MyMFCSDI/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/Documents/Projects/MyMFCSDI/src/MyMFCSDI/MyMFCSDI/CMakeLists.txt;D:\Documents\Projects\MyMFCSDI\src\MyMFCSDI\MyMFCSDI\CMakeLists.txt;D:\vtk7.1.1\vtk-bin\GUISupport\MFC\VTKMFCSettings.cmake;D:\Documents\Projects\MyMFCSDI\src\MyMFCSDI\MyMFCSDI\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Documents\Projects\MyMFCSDI\bin\MyMFCSDI\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Documents/Projects/MyMFCSDI/src/MyMFCSDI/MyMFCSDI/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -HD:/Documents/Projects/MyMFCSDI/src/MyMFCSDI -BD:/Documents/Projects/MyMFCSDI/bin --check-stamp-file D:/Documents/Projects/MyMFCSDI/bin/MyMFCSDI/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:/Documents/Projects/MyMFCSDI/src/MyMFCSDI/MyMFCSDI/CMakeLists.txt;D:\Documents\Projects\MyMFCSDI\src\MyMFCSDI\MyMFCSDI\CMakeLists.txt;D:\vtk7.1.1\vtk-bin\GUISupport\MFC\VTKMFCSettings.cmake;D:\Documents\Projects\MyMFCSDI\src\MyMFCSDI\MyMFCSDI\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Documents\Projects\MyMFCSDI\bin\MyMFCSDI\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Documents/Projects/MyMFCSDI/src/MyMFCSDI/MyMFCSDI/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -HD:/Documents/Projects/MyMFCSDI/src/MyMFCSDI -BD:/Documents/Projects/MyMFCSDI/bin --check-stamp-file D:/Documents/Projects/MyMFCSDI/bin/MyMFCSDI/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/Documents/Projects/MyMFCSDI/src/MyMFCSDI/MyMFCSDI/CMakeLists.txt;D:\Documents\Projects\MyMFCSDI\src\MyMFCSDI\MyMFCSDI\CMakeLists.txt;D:\vtk7.1.1\vtk-bin\GUISupport\MFC\VTKMFCSettings.cmake;D:\Documents\Projects\MyMFCSDI\src\MyMFCSDI\MyMFCSDI\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Documents\Projects\MyMFCSDI\bin\MyMFCSDI\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\Documents\Projects\MyMFCSDI\src\MyMFCSDI\MyMFCSDI\MainFrm.cpp" />
+    <ClCompile Include="D:\Documents\Projects\MyMFCSDI\src\MyMFCSDI\MyMFCSDI\StdAfx.cpp" />
+    <ClCompile Include="D:\Documents\Projects\MyMFCSDI\src\MyMFCSDI\MyMFCSDI\MyMFCSDI.cpp" />
+    <ResourceCompile Include="D:\Documents\Projects\MyMFCSDI\src\MyMFCSDI\MyMFCSDI\MyMFCSDI.rc" />
+    <ClCompile Include="D:\Documents\Projects\MyMFCSDI\src\MyMFCSDI\MyMFCSDI\MyMFCSDIDoc.cpp" />
+    <ClCompile Include="D:\Documents\Projects\MyMFCSDI\src\MyMFCSDI\MyMFCSDI\MyMFCFilesView.cpp" />
+    <ClCompile Include="D:\Documents\Projects\MyMFCSDI\src\MyMFCSDI\MyMFCSDI\MyViewController.cpp" />
+    <ClCompile Include="D:\Documents\Projects\MyMFCSDI\src\MyMFCSDI\MyMFCSDI\MyMFCSDIView.cpp" />
+    <ClCompile Include="D:\Documents\Projects\MyMFCSDI\src\MyMFCSDI\MyMFCSDI\MyPLYReaderFilter.cpp" />
+    <ClCompile Include="D:\Documents\Projects\MyMFCSDI\src\MyMFCSDI\MyMFCSDI\MyPicker.cpp" />
+    <ClCompile Include="D:\Documents\Projects\MyMFCSDI\src\MyMFCSDI\MyMFCSDI\MyParallelCoordinatesInteractorStyle.cpp" />
+    <ClCompile Include="D:\Documents\Projects\MyMFCSDI\src\MyMFCSDI\MyMFCSDI\vtkCustomAnimationCue.cpp" />
+    <ClCompile Include="D:\Documents\Projects\MyMFCSDI\src\MyMFCSDI\MyMFCSDI\MyCallBackAVI.cpp" />
+    <None Include="D:\Documents\Projects\MyMFCSDI\src\MyMFCSDI\MyMFCSDI\res\MyMFCSDI.rc2" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\Documents\Projects\MyMFCSDI\bin\ZERO_CHECK.vcxproj">
+      <Project>{7AB22863-61DC-37F4-A9D2-539921EC6451}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\src\MyMFCSDI\MyMFCSDI\res\ico00001.ico" />
+    <Image Include="..\..\src\MyMFCSDI\MyMFCSDI\res\ico00002.ico" />
+    <Image Include="..\..\src\MyMFCSDI\MyMFCSDI\res\icon1.ico" />
+    <Image Include="..\..\src\MyMFCSDI\MyMFCSDI\res\icon2.ico" />
+    <Image Include="..\..\src\MyMFCSDI\MyMFCSDI\res\MyMFCSDI.ico" />
+    <Image Include="..\..\src\MyMFCSDI\MyMFCSDI\res\MyMFCSDIDoc.ico" />
+    <Image Include="..\..\src\MyMFCSDI\MyMFCSDI\res\Toolbar.bmp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
